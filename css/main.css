@@ -1,0 +1,849 @@
+                                                          /*body section */
+
+body
+{
+     background-color: white;max-height: 1900px;
+}
+
+.clearfix { clear:both }
+
+/* container section */
+
+.container{width:100%; margin: auto}                                                         
+/* navbar section */
+
+.navbar .container{ 
+         background-color:white;
+          overflow:hidden; 
+          max-height: 70px;
+         position: fixed;
+         margin: auto;
+         z-index: 99;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+
+       }
+
+.navbar h2{
+           color: black;
+           padding-left: 140px; 
+           float: left;
+           font-size:46px;
+           margin-top: 10px;
+           font-weight: 300
+          }
+
+.navbar h2 span{color: #A0BE56;font-size:46px}
+
+.navbar ul{
+            list-style: none;
+            overflow: hidden;
+            float: right;
+            margin: 0;
+            padding: 0
+          }
+
+.navbar .container  ul li{
+            display:inline-block;
+            padding:16px 30px 10px 30px
+                         }
+
+.navbar  .container ul li a  { 
+           color: #7f846b;
+           text-decoration:  none;
+           line-height: 45px;    
+           font-size: 15px;
+           font-weight: bold;
+           display:inline-block;
+           transition: all .3s  
+                            }
+
+.navbar  ul li a:hover { color:#A0BE56;cursor:pointer }
+
+.navbar  ul li:active{border:1px dotted #93ca3a; padding:15px 29px 9px 29px}
+
+/* slider */
+
+.slider{height: 650px;width: 100%;text-align:center }
+
+img{width: 100%;height: 650px}
+
+.slider .im{
+    z-index: auto;
+    position: absolute
+           }
+
+.slider .d1 ,.slider .d2{
+      z-index: 1;
+    position:absolute;
+    color: #fff;
+    width :100%
+            }
+
+.slider .d1{
+      margin-top: 0;
+    font-weight: 200;
+    
+    top:250px;
+    font-size: 15px;
+    line-height: 2   
+   }
+
+.slider .d2{
+   
+    top:300px;
+    letter-spacing:3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 39px
+}
+
+.slider .d2 a{
+    background-color: #79b715;
+    line-height:3;
+    text-align:center;
+    width:200px;
+    font-size: 20px; 
+    border-style: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 12px;
+    padding-bottom: 17px;
+    line-height: 120px;
+    transition: all .7s ease-in-out
+} 
+
+.slider a:hover{color:#79b715;background-color:#fff}
+
+ /* skills */
+
+/* skills */
+
+.skills { 
+      overflow: hidden;
+    clear: both;
+    background-color: #fff;
+    height: 500px }
+
+.text .hh hr{width: 106.333333%}
+
+.skills .sk { overflow: hidden }
+
+.skills .sk .content {
+    padding-left: 35px;
+    margin-left: 20px;
+    float: left;
+    width: 25% ;
+    padding-top: 60px
+}
+
+.skills .sk .content .icon{float: left;width: 20%;margin-top: 20px}
+
+.skills .sk  .text{
+    margin-right:0;
+    float: left;
+    width: 80%    
+}
+
+
+.skills .sk  >div { float: left; width: 33% }
+
+/* provide */
+
+.provide .ov{
+      background-image: url('../images/divider-bg.jpg');
+    height: 500px;
+    color: #fff; 
+}
+
+.provide .ov h1{
+    padding-top: 119px;
+    padding-left: 171px;
+    font-size: 3em
+}
+
+.provide .ov h1 span {
+    color: #79b715 
+}
+
+.provide .ov h2 {
+   padding-top: 0;
+    padding-left: 171px;
+    line-height:1;
+    font-size: 32px
+}
+
+.provide .ov h2 a1
+{
+     background-color: #fff;
+    color: black
+}
+
+.provide .ov h2 a2
+{
+     background-color: #fff;
+    color: black
+
+}
+.provide .ov p
+{padding-top: 0;
+padding-left:171px;
+    line-height:30px;
+    margin-top: 57px
+}
+
+/* about solution */
+
+.about { overflow: hidden; padding-top: 120px; padding-bottom: 50px;padding-left: 70px;height: 340px;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08) }
+
+.about .div1 , .about .div2 {  width: 45%;float: left }
+
+.about  .div1 h1 { margin:10px 0 20px 40px; letter-spacing:1px;color: #79b715  }
+.about  .div1 h3{
+    padding-left: 0;
+    margin:10px 0 20px 40px
+}
+
+.about .div1  p { margin:0 0 10px 40px;color: #7e7171; line-height: 25px  }
+
+.about .div p:last-of-type { margin:15px 0 7px 40px }
+.about .div2  { margin-left: 7px;float: left}
+
+.about .div2  h2 { color: #836b6b;margin-bottom: -37px;font-size: 17px;line-height: 35px}
+
+.about .div2  div {  background:rgba(152, 152, 177, 0.2);
+    height: 8px; border-radius: 10px;overflow:hidden
+ }
+
+.about  .div2  div span
+{
+  
+    height: 8px;
+    display: block;
+    background: #79b715;
+    text-align: right;
+    font-weight: bold        
+}
+span1{width:100%}
+.span2{width:80%}
+.span3{width:90%}
+.span4{width:70%}
+
+
+/* meet the team */
+
+.meet
+{ overflow: hidden;
+    clear: both;
+    background-color: #fff;
+    margin-top:8px;
+    text-align: center
+    
+   
+}
+
+.meet .team  h1
+{
+    padding-top: 100px
+}
+
+.meet  .team .pic{width: 79%; margin:auto}
+
+.meet  .team .pic img
+{
+      margin-top: 33px;
+       border: 10px solid #fff;
+       width:88%;
+    height: 300px;
+    box-shadow: 10px 10px 63px 10px #e5e0e0;
+   transition: all .4s ease-in-out;
+
+}
+
+
+.meet  .team .pic h2
+{
+    text-align: center;
+    font-size: 16px;
+    color: #816b6b;
+    padding-top: 9px;
+}
+.meet  .team .pic h3
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 1px;
+    color:#93ca3a 
+}
+
+.meet  .team .pic p
+{
+    text-align: center;
+    color: #958f8f;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    font-size: 15px
+}
+
+.meet  .team .pic ul {
+    list-style: none;
+    font-size: small;
+    line-height: 5;
+    padding-left:0
+    
+}
+
+.meet  .team .pic ul li {display: inline-block ; 
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+text-align: center;
+   
+}
+
+.meet .team .pic i{color:#333;line-height:40px; text-align: center; width: 40px;
+}
+
+.meet .team .pic i a{
+    
+    color: #333;
+    font-size: 13px;
+    text-decoration: none
+ 
+   
+    
+}
+
+.meet .team .pic li :hover{background: #ddd }
+
+
+.meet .pic >div { float: left; width: 33% }
+ 
+.meet .pic >div  :hover{cursor:pointer  }
+.meet  .team .pic img:hover{opacity:0.5}
+
+
+/* Get our newsletter!*/
+
+.get .news{
+    background-image:   
+        url('../images/newsletter-bg.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+        background-size: cover;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 40px;
+    color: #fff;
+    
+}
+.get .news h2
+{
+    text-align: center;
+    font-size: 33px;
+    line-height: 0.7
+}
+
+.get .news p
+{
+    color: #f7eded;
+     margin-top:0
+}
+
+.get .news .xx
+{
+    
+    margin: auto;
+    padding: 20px
+    
+}
+
+.get .news .xx input[type="email"]
+{
+    width:300px;
+    padding: 15px;
+    margin: 25px;
+    background:rgba(255,255,255,0);
+    border-style: groove;
+    color: #fff
+    
+   
+}
+
+.get .news .xx input[type="submit"]
+{
+    width: 148px;
+    padding: 14px;
+    color: #fff;
+    background-color: #93ca3a;
+    border-style: none ;
+    cursor:pointer
+}
+
+.get .news .xx input[type="email"]::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* our pricing */
+ /* */
+.price {transition: all .2s}
+ 
+.price  h2
+{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px      
+}
+
+.price .pr 
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 100px;
+    
+    
+}
+.price .pr .basic
+{
+   border:1px solid #ddd;
+   width: 280px;
+    margin: auto;
+    height: 500px;
+    transition: all .4s ease-in-out;
+   
+}
+
+.price .pr .basic h3
+{
+    text-align: center;
+    color: #9bc848;
+    font-size: 30px;
+    
+}
+
+.price .pr .basic ul
+
+{
+    list-style: none;
+     text-align: center;
+    padding-left: 0;
+
+}
+
+.price .pr .basic ul li 
+{
+   display: block;
+    padding: 20px 0 20px 0;
+      text-align: center;
+   
+}
+
+.price .pr hr 
+{
+    margin: auto;
+    text-align: center;
+    width: 80%
+}
+.price .pr >div
+{
+   float: left; width: 20%;
+    text-align: center;  
+}
+
+.price .basic:hover
+{
+    background-color: black;
+    color: #fff;
+}
+
+
+.price .pr .basic button
+{
+    background-color:#93ca3a ;
+    color: #fff;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: none;
+    border-radius: 5px;
+     transition: all .5s ease-in-out;
+    line-height:2;
+    cursor:pointer
+    
+}
+.price .pr .basic button:hover
+{
+    background-color:#fff;
+    color: #93ca3a
+   
+}
+ .price hr
+{
+    margin-top: 700px;
+   opacity: 0.4
+}
+
+.price .pr hr :hover
+{
+    color: #fff
+}
+/* Recent Projects */
+.recent h2
+{
+    padding-top: 130px;
+    text-align: center;
+    font-size: 30px
+}
+
+.recent .butt
+{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.recent .butt 
+{
+    color: #a79e9e;
+    background-color: white;
+    padding: 2px
+}
+ 
+.recent .butt  button
+{
+    background-color: white;
+    color: #b5b5b5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:1px solid #ddd;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px  
+}
+.recent .butt  button:hover{cursor:pointer}
+
+.recent .photo{margin: auto;width: 87%}
+
+.recent .photo div
+{
+     
+    
+}
+
+.recent .photo div img
+{
+    height: 270px;
+        width: 100%;
+  text-align: center;
+     margin: auto
+    
+}
+
+.recent
+{
+
+}
+
+.recent  .photo .portfolio
+{
+   height: 270px;
+    width: 100%;
+        background: #333;
+        color: #ffffff;
+        text-align: center;
+        z-index:2;
+        overflow : hidden;
+         margin-top: -275px;
+         opacity: 0;
+    transition: all .4s ease-in-out
+    
+}
+.recent  .photo .portfolio p
+{
+    line-height: 1.7;
+    letter-spacing: 0.5
+}
+.recent  .portfolio:hover
+{
+
+  opacity: 0.9;
+  
+    
+   
+}
+
+.recent .portfolio .fa 
+{
+ border: 1px solid #ffffff;
+        border-radius: 50%;
+        color: #ffffff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin-right: 6px;
+        margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+.recent .photo >div{float: left; width: 31%;overflow: hidden;
+    margin-right: 2%;
+    margin-bottom: 30px;
+}
+
+
+/* contact */ 
+
+.contact .doo
+{
+     background-image:   
+        url('../images/contact-bg.jpg');
+    height: 280px;
+    background-repeat: no-repeat;
+        background-size: cover;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 734px;
+    color: #fff;
+   overflow:hidden;
+    clear:both
+    
+}
+.contact .doo .xa
+{
+    width:24%;  
+margin-right:1%;
+    float: left
+}
+
+.contact .doo .xa  h2
+{
+     font-size: 30px;
+    line-height: 0
+}
+
+.contact .doo .xa  p
+{
+        
+    padding-left: 68px;
+  text-align: left;
+    line-height: 1.7;
+    color: aliceblue
+    
+}
+
+.contact .doo .xa a
+{
+    color: #93ca3a;
+    text-decoration: none;  
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.contact .doo .xa ul 
+{
+    list-style: none;
+    font-size: small;
+    letter-spacing: 13px;
+    line-height: 5;
+    padding-left:0
+}
+
+.contact .doo .xa  ul li
+{
+    display: inline-block ; 
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+text-align: center;
+    margin-left: 0;
+    padding-top: 6px
+}
+
+.contact .doo .xa i{color:#93ca3a;line-height:40px; text-align: center; width:40px;padding-left: 9px
+}
+
+.contact .doo .xa i a
+{
+    font-size: 13px;
+    text-decoration: none
+}
+
+.contact .doo .xa li :hover{background: #fff }
+
+
+.contact .doo .xb
+{
+    width:24% ; 
+margin-right:1%;
+     float: left;
+    text-align: left;
+    margin-left: 13px
+}
+.contact .doo .xb h3
+{
+    margin-top:14px;
+    font-size: 25px;
+    padding-bottom: 4px;
+    
+}
+
+.contact .doo .xb i 
+{
+    color: #93ca3a;
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+
+.contact .doo .xb span
+{
+    color: aliceblue;
+    line-height: 1.9
+}
+.contact .doo .xc
+{
+    width:  45%;
+     float: left
+}
+
+.contact .doo .xc input[type="text"]
+{
+    width: 44%;
+  line-height:51px;
+    margin: 13px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: gainsboro;
+    padding-left: 5px
+
+    
+}
+
+
+.contact .doo .xc textarea
+{
+    width: 94%;
+    height: 148px;
+    padding-left: 61px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding-top: 12px;
+    padding-left: 0
+}
+
+.contact .doo .xc input[type="submit"]
+{
+    margin-left: 428px;
+    margin-top: 14px;
+    background-color: gainsboro;
+    border-radius: 7px;
+    width: 21%;
+   line-height: 48px;
+    border: 1px solid gainsboro;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+.contact .doo .xc input[type="submit"]:hover
+{
+    background-color:#93ca3a;
+    border: 1px solid #93ca3a
+}
+
+
+
+/* copyright */
+
+.cop
+{
+    overflow :hidden;
+clear:both
+}
+.cop p
+{
+    padding-left: 112px
+}
+
+.cop  .zz
+{
+    padding-top: 0
+}
+
+.cop  .zz a
+{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.cop ul
+{
+    list-style: none;
+    float: right;
+    padding-left: 30px
+
+
+}
+
+.cop   ul li   
+{
+    
+    display: inline-block ;
+    padding-left: 45px;
+    text-align: center;
+    margin-left: 0;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.cop  .yy  i{line-height:40px; text-align: center; width:40px
+}
+
+.cop  .yy li :hover{background: #ddd}
+.cop   ul li a
+{
+    text-decoration: none
+}
+.cop  .cc
+{
+    width: 50%;
+    float: left  
+}
+
+.cop .yy
+{
+    width: 34%;
+    float: left;
+  
+}
+
+
+/* ---------- */ 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
